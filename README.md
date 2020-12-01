@@ -7,3 +7,4 @@ WebGL demonstrations of art installations by Strijbos &amp; van Rijswijk
 - fmod buffer
 - Safari and Chrome Browser user interaction requirement
 - gzip stuff as of writing
+- multiple post-process volumes
