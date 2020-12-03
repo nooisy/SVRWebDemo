@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu G.unity
+    guid: 7198999e3d52a174797d77b4b232e87f
+  - enabled: 1
+    path: Assets/Scenes/Loading G.unity
+    guid: 43e21aa4634cfc84faa22957f8667e0a
+  - enabled: 1
     path: Assets/Scenes/Graz.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 0
+    path: Assets/Scenes/Menu P.unity
+    guid: 21e2d7cfe87652a4fb61a1c2be6b8e43
+  - enabled: 0
+    path: Assets/Scenes/Loading P.unity
+    guid: 51962138af9de234aa045c80f2666811
+  - enabled: 0
+    path: Assets/Scenes/Populieren.unity
+    guid: e496218d3db031f4c9140519011cce96
   m_configObjects: {}

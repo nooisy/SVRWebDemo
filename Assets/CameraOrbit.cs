@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class CameraOrbit : MonoBehaviour
@@ -9,6 +10,8 @@ public class CameraOrbit : MonoBehaviour
     protected float _CameraDistance = 12f;
 
     public float MouseSensitivity = 4f;
+    public float CameraDistMin = 5f;
+    public float CameraDistMax = 20f;
     public float ScrollSensitivity = 2f;
     public float OrbitDampening = 10f;
     public float ScrollDampening = 6f;
@@ -23,22 +26,14 @@ public class CameraOrbit : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Application.Quit();
-            #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-            #endif
-        }
-
-        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.X)) {
             CameraDisabled = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            // Cursor.lockState = CursorLockMode.Locked;
         }
 
-        if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1) || Input.GetKeyUp(KeyCode.Space)) {
+        if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1) || Input.GetKeyUp(KeyCode.X)) {
             CameraDisabled = true;
-            Cursor.lockState = CursorLockMode.None;
+            // Cursor.lockState = CursorLockMode.None;
         }
 
         if (!CameraDisabled)
@@ -59,7 +54,7 @@ public class CameraOrbit : MonoBehaviour
 
                 this._CameraDistance += ScrollAmount * -1f;
 
-                this._CameraDistance = Mathf.Clamp(this._CameraDistance, 5f, 20f);
+                this._CameraDistance = Mathf.Clamp(this._CameraDistance, CameraDistMin, CameraDistMax);
             }
         }
 
