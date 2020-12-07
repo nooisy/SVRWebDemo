@@ -1,5 +1,7 @@
-using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraOrbit : MonoBehaviour
 {
@@ -16,46 +18,37 @@ public class CameraOrbit : MonoBehaviour
     public float OrbitDampening = 10f;
     public float ScrollDampening = 6f;
 
-    public bool CameraDisabled = true;
+    // private void LockCursor()
+    // {
+    //     Cursor.lockState = CursorLockMode.Locked;
+    // }
 
-    void Start()
+    private void Awake()
     {
+        // LockCursor();
         this._XForm_Camera = this.transform;
         this._XForm_Parent = this.transform.parent;
     }
 
-    void LateUpdate()
+    void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.X)) {
-            CameraDisabled = false;
-            // Cursor.lockState = CursorLockMode.Locked;
-        }
-
-        if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1) || Input.GetKeyUp(KeyCode.X)) {
-            CameraDisabled = true;
-            // Cursor.lockState = CursorLockMode.None;
-        }
-
-        if (!CameraDisabled)
+        if(Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
         {
-            if(Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
-            {
-                _LocalRotation.x += Input.GetAxis("Mouse X") * MouseSensitivity;
-                _LocalRotation.y -= Input.GetAxis("Mouse Y") * MouseSensitivity;
+            _LocalRotation.x += Input.GetAxis("Mouse X") * MouseSensitivity;
+            _LocalRotation.y -= Input.GetAxis("Mouse Y") * MouseSensitivity;
 
-                _LocalRotation.y = Mathf.Clamp(_LocalRotation.y, 0f, 90f);
-            }
+            _LocalRotation.y = Mathf.Clamp(_LocalRotation.y, 0f, 90f);
+        }
 
-            if(Input.GetAxis("Mouse ScrollWheel") != 0f)
-            {
-                float ScrollAmount = Input.GetAxis("Mouse ScrollWheel") * ScrollSensitivity;
+        if(Input.GetAxis("Mouse ScrollWheel") != 0f)
+        {
+            float ScrollAmount = Input.GetAxis("Mouse ScrollWheel") * ScrollSensitivity;
 
-                ScrollAmount *= (this._CameraDistance * 0.3f);
+            ScrollAmount *= (this._CameraDistance * 0.3f);
 
-                this._CameraDistance += ScrollAmount * -1f;
+            this._CameraDistance += ScrollAmount * -1f;
 
-                this._CameraDistance = Mathf.Clamp(this._CameraDistance, CameraDistMin, CameraDistMax);
-            }
+            this._CameraDistance = Mathf.Clamp(this._CameraDistance, CameraDistMin, CameraDistMax);
         }
 
         Quaternion QT = Quaternion.Euler(_LocalRotation.y, _LocalRotation.x, 0);

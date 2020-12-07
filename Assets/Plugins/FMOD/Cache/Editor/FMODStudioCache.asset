@@ -1,646 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9197168581205019406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Speaker 4/Switch
-  m_EditorClassIdentifier: 
-  Name: Switch
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-9015868622270819029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 6
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 6
-  guid: de295ff93ab30441a4d6bc7b4461a5c3
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &-8624787147280700682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Speaker1
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Speaker1
-  guid: 94630daf31a3874ea1d2e6153a2775d3
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 693035
---- !u!114 &-8619017849413755038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Speaker 2
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Speaker 2
-  guid: 627985749b3b534d9cb92af9f865d605
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 682919
---- !u!114 &-8586052654651881639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Populieren.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Populieren.bank
-  Name: Populieren
-  lastModified: 637417685205110075
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &-7647794850139519151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Amor 2
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Amor 2
-  guid: dbea3aae951cad46a5af9ac6412bc41e
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 411883
---- !u!114 &-6988110582448425315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Speaker 1
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Speaker 1
-  guid: 94630daf31a3874ea1d2e6153a2775d3
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 693035
---- !u!114 &-6702838171288101810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Graz.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Graz.bank
-  Name: Graz
-  lastModified: 637413941850207045
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-6135674536132841799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Speaker 1/Switch
-  m_EditorClassIdentifier: 
-  Name: Switch
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-5966011121385952764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Populieren.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Populieren.bank
-  Name: Populieren
-  lastModified: 637413941850257152
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-5178125656930595893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Speaker 3
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Speaker 3
-  guid: 39b056cf6b05da44bbcb3afae58cee8d
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3667524840311238445}
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 693035
---- !u!114 &-4975198920770411461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain
-  guid: 7dd7feb8b0810f47a587bcfa4ba93bee
-  Banks:
-  - {fileID: -6702838171288101810}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 25
-  Length: 30762
---- !u!114 &-3987787015631855612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Speaker 2
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Speaker 2
-  guid: 627985749b3b534d9cb92af9f865d605
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1625670769564091412}
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 693035
---- !u!114 &-3629413648929691373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Master.bank
-  Name: Master
-  lastModified: 637424520338345439
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-2963433624341852749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  lastModified: 637424520338405423
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1336
-  Exists: 1
---- !u!114 &-2625435325461391694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 9
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 9
-  guid: ab67eae5ec79f949bc2240fa534845fc
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &-2076272631904545729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Speaker 1
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Speaker 1
-  guid: 94630daf31a3874ea1d2e6153a2775d3
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -568617852582807196}
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 693035
---- !u!114 &-1625670769564091412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Speaker 2/Switch
-  m_EditorClassIdentifier: 
-  Name: Switch
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-1075947355400369593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Fountain
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Fountain
-  guid: 7dd7feb8b0810f47a587bcfa4ba93bee
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 25
-  Length: 30762
---- !u!114 &-568617852582807196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Speaker 1/Switch
-  m_EditorClassIdentifier: 
-  Name: Switch
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-11566935088712875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Amor 1
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Amor 1
-  guid: 94630daf31a3874ea1d2e6153a2775d3
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 411883
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -2963433624341852749}
-  - {fileID: -3629413648929691373}
-  EditorEvents:
-  - {fileID: -1075947355400369593}
-  - {fileID: 5316951405753904124}
-  - {fileID: -8619017849413755038}
-  - {fileID: 7907731245251521302}
-  - {fileID: 8344974254975966708}
-  - {fileID: 1804893252674024853}
-  - {fileID: 5464313537078331160}
-  - {fileID: 993867351564815025}
-  - {fileID: 6549067078568510737}
-  - {fileID: 18521476559270741}
-  - {fileID: -2625435325461391694}
-  - {fileID: 7593559219524605919}
-  - {fileID: 1076224285799502191}
-  - {fileID: -9015868622270819029}
-  - {fileID: 4717306612705070573}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -3629413648929691373}
-  StringsBanks:
-  - {fileID: -2963433624341852749}
-  stringsBankWriteTime: 637424520338405423
-  cacheVersion: 5
---- !u!114 &18521476559270741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 5
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 5
-  guid: 9bf5612892491b46b4fc07c98763f070
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &993867351564815025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 4
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 4
-  guid: 82bd0155bac2f443b3fd417426e27480
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &1076224285799502191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 8
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 8
-  guid: d75a6007bbabff42bee89871e7204285
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &1804893252674024853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 2
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 2
-  guid: 3c14b1de8cad2948b8105410bb01a989
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &3667524840311238445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Speaker 3/Switch
-  m_EditorClassIdentifier: 
-  Name: Switch
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4717306612705070573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 3
-  m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 3
-  guid: e51fc2e60f30d9498ccf4c8aa04a0159
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 40
-  Length: 812073
---- !u!114 &5316951405753904124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Speaker 3
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Speaker 3
-  guid: 39b056cf6b05da44bbcb3afae58cee8d
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 682919
---- !u!114 &5464313537078331160
+--- !u!114 &-8891666829192346793
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -655,7 +15,7 @@ MonoBehaviour:
   Path: event:/Populieren/Speaker 7
   guid: 40988d5de9c4404f8809af6e2733b983
   Banks:
-  - {fileID: -3629413648929691373}
+  - {fileID: 6118445763128458409}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -663,7 +23,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 40
   Length: 812073
---- !u!114 &6237707071701024779
+--- !u!114 &-8763356673282259976
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -673,19 +33,381 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Amor 4
+  m_Name: event:/Populieren/Speaker 6
   m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Amor 4
-  guid: 5e51f7d2084aca43a34343bc8f95a24b
+  Path: event:/Populieren/Speaker 6
+  guid: de295ff93ab30441a4d6bc7b4461a5c3
   Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-8394706875250928159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 4
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 4
+  guid: 82bd0155bac2f443b3fd417426e27480
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-7686669393128670379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637429418465627406
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7622577046657595070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Graz.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Graz.bank
+  Name: Graz
+  lastModified: 637429416201533582
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5205175724887821989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 8
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 8
+  guid: d75a6007bbabff42bee89871e7204285
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-4365185189310263648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 2
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 2
+  guid: 3c14b1de8cad2948b8105410bb01a989
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-4262829491747117930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 1
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 1
+  guid: b448d87aadc6bd4d8a2470dd94baefa5
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-4223165955033707789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/GrazBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/GrazBank.bank
+  Name: GrazBank
+  lastModified: 637429418466666941
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3650446012186201263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 2
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 2
+  guid: 3c14b1de8cad2948b8105410bb01a989
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-3172783938395840228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 6
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 6
+  guid: de295ff93ab30441a4d6bc7b4461a5c3
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-2983577221016796829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fountain/Fountain
+  m_EditorClassIdentifier: 
+  Path: event:/Fountain/Fountain
+  guid: 7dd7feb8b0810f47a587bcfa4ba93bee
+  Banks:
+  - {fileID: -4223165955033707789}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 25
+  Length: 30762
+--- !u!114 &-789070782607055128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637429418465637399
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1426
+  Exists: 1
+--- !u!114 &-777901373841302169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 7
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 7
+  guid: 40988d5de9c4404f8809af6e2733b983
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-709957021224898780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 9
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 9
+  guid: ab67eae5ec79f949bc2240fa534845fc
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &-530462567484302035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fountain/Speaker 3
+  m_EditorClassIdentifier: 
+  Path: event:/Fountain/Speaker 3
+  guid: 39b056cf6b05da44bbcb3afae58cee8d
+  Banks:
+  - {fileID: -4223165955033707789}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 30
-  Length: 411883
---- !u!114 &6549067078568510737
+  Length: 682919
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -789070782607055128}
+  - {fileID: -7686669393128670379}
+  - {fileID: -4223165955033707789}
+  - {fileID: 6118445763128458409}
+  EditorEvents:
+  - {fileID: -530462567484302035}
+  - {fileID: 8948372237371539060}
+  - {fileID: -2983577221016796829}
+  - {fileID: 6784012153113669129}
+  - {fileID: 5129385147642672945}
+  - {fileID: -3650446012186201263}
+  - {fileID: -8891666829192346793}
+  - {fileID: 699011938200975359}
+  - {fileID: 707212500889591517}
+  - {fileID: 5710715025397416381}
+  - {fileID: 4090364452986080402}
+  - {fileID: 6254168630172593392}
+  - {fileID: -5205175724887821989}
+  - {fileID: -3172783938395840228}
+  - {fileID: 4219038806365275517}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -7686669393128670379}
+  StringsBanks:
+  - {fileID: -789070782607055128}
+  stringsBankWriteTime: 637429418465637399
+  cacheVersion: 5
+--- !u!114 &699011938200975359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 4
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 4
+  guid: 82bd0155bac2f443b3fd417426e27480
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &707212500889591517
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -700,7 +422,7 @@ MonoBehaviour:
   Path: event:/Populieren/Speaker 10
   guid: 82ed73b390616443a1dacfa8aa4ae892
   Banks:
-  - {fileID: -3629413648929691373}
+  - {fileID: 6118445763128458409}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -708,7 +430,97 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 40
   Length: 812073
---- !u!114 &6977613418738708761
+--- !u!114 &1323581712344058308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 8
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 8
+  guid: d75a6007bbabff42bee89871e7204285
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &2119995751243405849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 10
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 10
+  guid: 82ed73b390616443a1dacfa8aa4ae892
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &4090364452986080402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 9
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 9
+  guid: ab67eae5ec79f949bc2240fa534845fc
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &4219038806365275517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 3
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 3
+  guid: e51fc2e60f30d9498ccf4c8aa04a0159
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &4316610266941386339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -718,15 +530,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Fontein.bank
+  m_Name: bank:/Populieren.bank
   m_EditorClassIdentifier: 
-  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Fontein.bank
-  Name: Fontein
-  lastModified: 637417685203140578
+  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/Populieren.bank
+  Name: Populieren
+  lastModified: 637429416203822832
   LoadResult: 0
   FileSizes: []
   Exists: 0
---- !u!114 &7593559219524605919
+--- !u!114 &4317063974376350494
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -736,12 +548,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Populieren/Speaker 1
+  m_Name: event:/Populieren/Speaker 5
   m_EditorClassIdentifier: 
-  Path: event:/Populieren/Speaker 1
-  guid: b448d87aadc6bd4d8a2470dd94baefa5
-  Banks:
-  - {fileID: -3629413648929691373}
+  Path: event:/Populieren/Speaker 5
+  guid: 9bf5612892491b46b4fc07c98763f070
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -749,53 +560,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 40
   Length: 812073
---- !u!114 &7772448027128894898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Speaker 4
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Speaker 4
-  guid: 8940c3da1a711a4dab88850bb71cd289
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -9197168581205019406}
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 693035
---- !u!114 &7907731245251521302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Speaker 4
-  m_EditorClassIdentifier: 
-  Path: event:/Fountain/Speaker 4
-  guid: 8940c3da1a711a4dab88850bb71cd289
-  Banks:
-  - {fileID: -3629413648929691373}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 30
-  Length: 682919
---- !u!114 &8344974254975966708
+--- !u!114 &5129385147642672945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -810,7 +575,7 @@ MonoBehaviour:
   Path: event:/Fountain/Speaker 1
   guid: 94630daf31a3874ea1d2e6153a2775d3
   Banks:
-  - {fileID: -3629413648929691373}
+  - {fileID: -4223165955033707789}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -818,7 +583,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 30
   Length: 682919
---- !u!114 &9063842836951925437
+--- !u!114 &5710715025397416381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -828,15 +593,125 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Fountain/Amor/Amor 3
+  m_Name: event:/Populieren/Speaker 5
   m_EditorClassIdentifier: 
-  Path: event:/Fountain/Amor/Amor 3
-  guid: f7770db6b733e04bb1b9ffcb2c3ab150
-  Banks: []
+  Path: event:/Populieren/Speaker 5
+  guid: 9bf5612892491b46b4fc07c98763f070
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &6118445763128458409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PopBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/FMOD Studio/svr demo/Build/Desktop/PopBank.bank
+  Name: PopBank
+  lastModified: 637429418469676083
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6254168630172593392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 1
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 1
+  guid: b448d87aadc6bd4d8a2470dd94baefa5
+  Banks:
+  - {fileID: 6118445763128458409}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &6784012153113669129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fountain/Speaker 4
+  m_EditorClassIdentifier: 
+  Path: event:/Fountain/Speaker 4
+  guid: 8940c3da1a711a4dab88850bb71cd289
+  Banks:
+  - {fileID: -4223165955033707789}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 30
-  Length: 411883
+  Length: 682919
+--- !u!114 &7609927694686218711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Populieren/Speaker 3
+  m_EditorClassIdentifier: 
+  Path: event:/Populieren/Speaker 3
+  guid: e51fc2e60f30d9498ccf4c8aa04a0159
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 40
+  Length: 812073
+--- !u!114 &8948372237371539060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fountain/Speaker 2
+  m_EditorClassIdentifier: 
+  Path: event:/Fountain/Speaker 2
+  guid: 627985749b3b534d9cb92af9f865d605
+  Banks:
+  - {fileID: -4223165955033707789}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 30
+  Length: 682919

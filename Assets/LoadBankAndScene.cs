@@ -21,11 +21,11 @@ public class LoadBankAndScene : MonoBehaviour
     }
 
     void Update()
-	{
+	  {
         if (FMODUnity.RuntimeManager.HasBankLoaded("Master"))
         {
             Debug.Log("Master Bank Loaded");
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
-	}
+	  }
 }

@@ -26,7 +26,7 @@ namespace FMODUnity
             FMOD.StringWrapper file = new FMOD.StringWrapper(filePtr);
             FMOD.StringWrapper func = new FMOD.StringWrapper(funcPtr);
             FMOD.StringWrapper message = new FMOD.StringWrapper(messagePtr);
-
+            
             if (flags == FMOD.DEBUG_FLAGS.ERROR)
             {
                 Debug.LogError(string.Format(("[FMOD] {0} : {1}"), (string)func, (string)message));
@@ -424,7 +424,7 @@ retry:
                 {
                     FMOD.Studio.PLAYBACK_STATE playbackState = FMOD.Studio.PLAYBACK_STATE.STOPPED;
                     attachedInstances[i].instance.getPlaybackState(out playbackState);
-                    if (!attachedInstances[i].instance.isValid() ||
+                    if (!attachedInstances[i].instance.isValid() || 
                         playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED ||
                         attachedInstances[i].transform == null // destroyed game object
                         )
@@ -785,7 +785,7 @@ retry:
                     bankPath = string.Format("{0}/{1}", bankFolder, bankName);
                 }
 
-                #if UNITY_ANDROID && !UNITY_EDITOR
+                #if UNITY_ANDROID && !UNITY_EDITOR 
                 if (Settings.Instance.AndroidUseOBB)
                 {
                     #if UNITY_2018_1_OR_NEWER
@@ -1079,7 +1079,7 @@ retry:
         {
             SetListenerLocation3D(0, gameObject.transform, rigidBody, attenuationObject);
         }
-
+        
         public static void SetListenerLocation(GameObject gameObject, Rigidbody2D rigidBody2D, GameObject attenuationObject = null)
         {
             SetListenerLocation2D(0, gameObject.transform, rigidBody2D, attenuationObject);
@@ -1094,7 +1094,7 @@ retry:
         {
             SetListenerLocation3D(listenerIndex, gameObject.transform, rigidBody, attenuationObject);
         }
-
+        
         public static void SetListenerLocation(int listenerIndex, GameObject gameObject, Rigidbody2D rigidBody2D, GameObject attenuationObject = null)
         {
             SetListenerLocation2D(listenerIndex, gameObject.transform, rigidBody2D, attenuationObject);
@@ -1185,7 +1185,7 @@ retry:
         {
             get
             {
-                return Instance.loadedBanks.Count > 1;
+                return Instance.loadedBanks.Count > 1; 
             }
         }
 

@@ -1,0 +1,22 @@
+
+<!-- BABEL_DEFAULT WebGL template
+ 	BABEL X3D Default template add-on for Unity 3D WebGL launch  
+	Info: Template based on Unity Default template. This modif:
+		- prevents the immediate lauch of game. The game starts loading by pressing a play button
+		- Shows a cover image if a file "coverImage.jpg" is present
+		- On launch the user can resize the game window dinamically.
+		
+		- With a "start" URL command the scene can be loaded immediately or after X seconds
+
+	Details, instalation and use in the blog:
+	https://portal.babelx3d.net/content/video-style-viewer-webgl-scenes
+	
+	by Vitor Cardoso (aka vcard), 21-Dec-2018  	
+	https://portal.babelx3d.net
+
+	versions:
+		v.1.1, 27-Jan-2019
+		v.1.0, 21-Dec-2018		
+-->
+
+

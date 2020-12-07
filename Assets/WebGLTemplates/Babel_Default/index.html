@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!-- BABEL_DEFAULT WebGL template
+ 	BABEL X3D Default template add-on for Unity 3D WebGL launch  
+	Info: Template based on Unity Default template. This modif:
+		- prevents the immediate lauch of game. The game starts loading by pressing a play button
+		- Shows a cover image if a file "coverImage.jpg" is present
+		- On launch the user can resize the game window dinamically.
+		
+		- With a "start" URL command the scene can be loaded immediately or after X seconds
+
+	Details, instalation and use in the blog:
+	https://portal.babelx3d.net/content/video-style-viewer-webgl-scenes
+	
+	by Vitor Cardoso (aka vcard), 2018  	
+	https://portal.babelx3d.net
+
+	versions:
+		v.1.1, 27-Jan-2019
+		v.1.0, 21-Dec-2018		
+-->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- <title>WebGL Player | %UNITY_WEB_NAME%</title> -->
+    <title>WebGL Player | %UNITY_WEB_NAME%</title> 
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <!-- <script src="%UNITY_WEBGL_LOADER_URL%"></script> -->
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+	    
+  </head>
+  <body>
+    <div class="webgl-content">    
+      <!-- <div id="gameContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px; margin: auto; background-image: url('coverImage.jpg');">  -->          
+      <div id="gameContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px; margin: auto; background-image: url('coverImage.jpg');">  
+      </div>
+      <div class="footer">
+        <div class="webgl-logo"></div>        
+        <div class="fullscreen" style="cursor:sw-resize" onclick="gameInstance.SetFullscreen(1)"></div>
+        <!-- <div class="title">%UNITY_WEB_NAME%</div> -->
+        <div class="title">%UNITY_WEB_NAME%</div>
+      </div>
+    </div>    
+    
+    <!-- BEGIN BABELX3D CUSTOMIZATION -->     
+    <!-- ALL the code below must go immediately before the closing </body> tag -->  	
+    
+	<link rel="stylesheet" href="TemplateData/BabelX3DWebGLauncher.css">
+    
+    <script> 		
+    
+    //On entering remove previous fullscreen Button node (because it doesn't work before loading WebGL)
+		var fullscreenNode = document.getElementsByClassName("fullscreen")[0];
+		document.getElementsByClassName("footer")[0].removeChild(fullscreenNode);   
+	
+	// Add Class "gameContainer" to gameContainer DIV
+		document.getElementById("gameContainer").classList.add("gameContainer");
+	
+	//Add CSS play buttons
+	//1-Add outer play button	
+		var iplayButtonOuter = document.createElement("div");
+		iplayButtonOuter.className = "play-button-outer";
+		iplayButtonOuter.id = "playButtonOuter";
+		document.getElementById("gameContainer").appendChild(iplayButtonOuter);	
+				
+	//2-Add play button inside outer play button
+	
+		var playButtonClicked = false;	// controls if the button was clicked. Needed to deactivate the timer launch
+		var iplayButton = document.createElement("div");
+		iplayButton.className = "play-button";
+		iplayButton.onclick = function() {playButtonClicked = true; runWebGL(); };    // action when button is clicked
+		document.getElementById("playButtonOuter").appendChild(iplayButton);
+		
+	//3-Add title to play button = "Click to Play Game"
+		document.getElementsByClassName("play-button")[0].title = "Click to Play Game";	
+
+	//4-Light/unlight playButtonOuter when mouse is over gameContainer
+		//4.1 - first create 2 functions with code to simplify code reading	// error control is also needed here
+		function lightPlayButton() {
+		try {
+		document.getElementById("playButtonOuter").style.borderColor = "rgba(30,174,211, .5)";
+		} catch(err) {}
+		}		
+		function unLightPlayButton() {
+		try {
+		document.getElementById("playButtonOuter").style.borderColor = "rgba(30,174,211, .1)";
+		} catch(err) {}
+		}
+
+		//4.2 - then add commands
+		//document.getElementById("gameContainer").title = "Click Play Button to Launch Game";	//not needed
+		document.getElementById("gameContainer").onmouseover = function() {lightPlayButton(); }; 
+		document.getElementById("gameContainer").onmouseout = function() {unLightPlayButton(); }; 		
+		
+    // Now we have done all needed and are able to run WebGL           
+    function runWebGL() {       
+    
+    //Get World Title Name
+    	var titleName = document.getElementsByClassName("title")[0].innerHTML;
+    
+    //Instantiate/Launch WebGL Game
+  		//var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress}); //REF
+    	var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});  
+  
+    //After game launch, disable resize property in Class "gameContainer" to prevent bad resizing
+		document.getElementById("gameContainer").style.resize="none";
+    
+	//ReCreate fresh fullscreen Button node	(after instantiating WebGL Game)
+		var iFullscreen = document.createElement("div");
+		iFullscreen.className = "fullscreen";
+		iFullscreen.id = "fullscreen";
+		iFullscreen.onclick = function() {gameInstance.SetFullscreen(1);};
+		document.getElementsByClassName("footer")[0].appendChild(iFullscreen);		
+		
+	//add cursor pointer and title to fullscreen button
+		document.getElementById("fullscreen").style.cursor = "pointer";
+		document.getElementById("fullscreen").title = "Full Screen";
+				
+	//Copy title Name to var and then delete World Title node
+		var titleNode = document.getElementsByClassName("title")[0];
+		document.getElementsByClassName("footer")[0].removeChild(titleNode);
+		
+	//ReCreate title node	(to do a correct positioning of title before fullscreen)
+		var child1 = document.createElement("div");
+		child1.className = "title";
+		child1.innerHTML = titleName;		
+		document.getElementsByClassName("footer")[0].appendChild(child1);
+		
+      }
+
+      //--  Get command from URL to start scene immediatelly or with delay   
+      //-- Add "?start=yes" to URL
+      
+      //timmer launch - 
+      function waitFunction() {
+      	if (playButtonClicked == false) { /*prevents timer action in case play button has been clicked before */
+  			runWebGL();
+  			}
+		}
+      
+      //--  Get command from URL
+      function getQueryVariable(variable)
+		{
+       	var query = window.location.search.substring(1);
+       	var vars = query.split("&");
+       	for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){
+               	if (pair[1].toLowerCase() == "y" || pair[1].toLowerCase() == "yes"){                		
+               		setTimeout(waitFunction, 3000);  //default wait is set to 3000 msecs         	
+               		//runWebGL();                		
+               		// return pair[1];
+               		}
+               	else if (Number(pair[1]) >= 0){
+               		setTimeout(waitFunction, Number(pair[1]));  //waits X msecs defined by user/visitor                	
+               	}
+               }
+       }
+       return(false);       
+	}
+	
+	getQueryVariable("start");
+	
+    </script>    
+    <!-- END BABELX3D CUSTOMIZATION  -->
+  </body>
+</html>
